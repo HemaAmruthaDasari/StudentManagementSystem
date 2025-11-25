@@ -2,7 +2,7 @@ name: Build & Push Docker Image (Auto Dockerfile)
 
 on:
   push:
-    branches: ["master"]
+    branches: ["main"]
 
 jobs:
   build:
